@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marce\\source\\repos\\Algebra_Lineal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8D924A-8397-DD15-0982-B976B821A8A9}|LU_fact\\LU_fact.vcxproj|C:\\Users\\marce\\source\\repos\\Algebra_Lineal\\LU_fact\\LU_fact.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A8D924A-8397-DD15-0982-B976B821A8A9}|LU_fact\\LU_fact.vcxproj|solutionrelative:LU_fact\\LU_fact.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LU_fact.cpp",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\Algebra_Lineal\\LU_fact\\LU_fact.cpp",
+              "RelativeDocumentMoniker": "LU_fact\\LU_fact.cpp",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\Algebra_Lineal\\LU_fact\\LU_fact.cpp",
+              "RelativeToolTip": "LU_fact\\LU_fact.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-09T21:21:55.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

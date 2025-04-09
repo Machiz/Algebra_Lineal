@@ -1,0 +1,1 @@
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\x64\Debug\LU_fact.vcxproj.AssemblyReference.cache

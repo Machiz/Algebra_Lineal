@@ -31,17 +31,20 @@ void luDecomposition(vector<vector<double>>& A, vector<vector<double>>& L, vecto
 }
 
 int main() {
-    int n = 3;
+    int n = 4;
+	//cout << "Ingrese el tamaño de la matriz (n x n), donde n>=4 y n<=10: ";
     vector<vector<double>> A = {
-        {2, -1, -2},
-        {-4, 6, 3},
-        {-4, -2, 8}
+        {3, -7, -2, 2},
+        {-3, 5, 1,0},
+        {6, -4, 0, -5},
+        {-4, 5, -5, 12},
     };
+    //generacion de matriz aleatoria, almacenada en un vector
 
-    vector<vector<double>> L(n, vector<double>(n, 0));
-    vector<vector<double>> U(n, vector<double>(n, 0));
+    vector<vector<double>> L(n, vector<double>(n, 0));//vector que almacena la matriz inferior
+	vector<vector<double>> U(n, vector<double>(n, 0));//vector que almacena la matriz superior
 
-    luDecomposition(A, L, U, n);
+	luDecomposition(A, L, U, n);//llama la funcion de factorizacion LU
 
     // Mostrar matrices L y U
     cout << "Matriz L:\n";
