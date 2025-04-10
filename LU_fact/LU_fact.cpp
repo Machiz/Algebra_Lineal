@@ -1,9 +1,27 @@
 #include "pch.h"
 #include <iostream>
 #include <vector>
+#include <cstdlib>
 
 using namespace System;
 using namespace std;
+
+vector<vector<double>> generarMatrizAleatoria(double n) {
+    vector<vector<double>> matriz(n, vector<double>(n)); // Inicializamos una matriz n x n
+    srand(time(nullptr)); // Semilla para la generación aleatoria
+
+    // Creamos la matriz simétrica
+    for (int i = 0; i < n; ++i) {
+        for (int j = i; j < n; ++j) { // Solo recorremos la parte superior
+            int valor = -15 + (rand() % 31); // -15 <= valor <= 15
+            matriz[i][j] = valor;
+            matriz[j][i] = valor; // Mantener simetría
+        }
+    }
+
+    return matriz;
+}
+
 
 // Función para realizar la factorización LU
 void luDecomposition(vector<vector<double>>& A, vector<vector<double>>& L, vector<vector<double>>& U, int n) {
@@ -31,20 +49,25 @@ void luDecomposition(vector<vector<double>>& A, vector<vector<double>>& L, vecto
 }
 
 int main() {
-    int n = 4;
-	//cout << "Ingrese el tamaño de la matriz (n x n), donde n>=4 y n<=10: ";
-    vector<vector<double>> A = {
-        {3, -7, -2, 2},
-        {-3, 5, 1,0},
-        {6, -4, 0, -5},
-        {-4, 5, -5, 12},
-    };
-    //generacion de matriz aleatoria, almacenada en un vector
+    double n;
+    do {
+        cout << "Ingrese el tamaño de la matriz (n x n), donde n>=4 y n<=10: "; cin >> n;
+    }while(n<4 || n>10);
+    
+    vector<vector<double>> A = generarMatrizAleatoria(n); //generacion de matriz aleatoria, almacenada en un vector
 
     vector<vector<double>> L(n, vector<double>(n, 0));//vector que almacena la matriz inferior
 	vector<vector<double>> U(n, vector<double>(n, 0));//vector que almacena la matriz superior
 
 	luDecomposition(A, L, U, n);//llama la funcion de factorizacion LU
+
+    //mostrar matriz original
+    cout<< "Matriz A:\n";
+    for (const auto& row : A) {
+		for (double val : row)
+			cout << val << " ";
+		cout << endl;
+	}
 
     // Mostrar matrices L y U
     cout << "Matriz L:\n";

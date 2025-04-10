@@ -1,3 +1,11 @@
 ﻿  LU_fact.cpp
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\LU_fact.cpp(10,53): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\LU_fact.cpp(10,35): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\LU_fact.cpp(11,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\LU_fact.cpp(59,48): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\LU_fact.cpp(59,30): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\LU_fact.cpp(60,45): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\LU_fact.cpp(60,27): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\marce\source\repos\Algebra_Lineal\LU_fact\LU_fact.cpp(62,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   LU_fact.vcxproj -> C:\Users\marce\source\repos\Algebra_Lineal\x64\Debug\LU_fact.exe

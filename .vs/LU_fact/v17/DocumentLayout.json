@@ -14,8 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e78e0cf7-2e4e-48a7-bf7f-a94d9330a3be}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "LU_fact\\LU_fact.cpp",
               "ToolTip": "C:\\Users\\marce\\source\\repos\\Algebra_Lineal\\LU_fact\\LU_fact.cpp",
               "RelativeToolTip": "LU_fact\\LU_fact.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADoAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-09T21:21:55.326Z",
               "EditorCaption": ""
